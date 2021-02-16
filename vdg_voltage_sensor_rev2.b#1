@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.0393700787" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -168,8 +168,6 @@
 <text x="24" y="4" size="1.27" layer="25">VIN+</text>
 <text x="1" y="44" size="1.016" layer="25">Team P21140 - Moon Dust Rocket Thruster
 Voltage Sensor</text>
-<dimension x1="-0.01" y1="0.02" x2="-0.01" y2="46.92" x3="-4" y3="23.47" textsize="1.778" layer="1"/>
-<dimension x1="-0.01" y1="46.92" x2="35.69" y2="46.92" x3="17.84" y3="50" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="Resistor_Capacitor" urn="urn:adsk.eagle:library:15122775">
@@ -775,7 +773,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" package="CAP_1206" package3d_urn="urn:adsk.eagle:package:10872907/3" value="2uF" x="6.53" y="17.09" rot="R90">
+<element name="C1" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" package="CAP_1206" package3d_urn="urn:adsk.eagle:package:10872907/3" value="2uF" x="6.53" y="17.09" smashed="yes" rot="R90">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="25.58" y="46.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="GRM31CR60J107ME39L" x="25.58" y="46.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="25.58" y="46.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -784,7 +782,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PACKAGE" value="SMD 1206" x="25.58" y="46.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="9.324" y="14.55" size="1.2" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C2" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" package="CAP_1206" package3d_urn="urn:adsk.eagle:package:10872907/3" value="4.7uF" x="11.55" y="20.76" rot="R90">
+<element name="C2" library="Resistor_Capacitor" library_urn="urn:adsk.eagle:library:15122775" package="CAP_1206" package3d_urn="urn:adsk.eagle:package:10872907/3" value="4.7uF" x="11.55" y="20.76" smashed="yes" rot="R90">
 <attribute name="CREATED_BY" value="PCBLayout.com" x="30.6" y="56.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="GRM31CR60J107ME39L" x="30.6" y="56.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics North America" x="30.6" y="56.32" size="1.778" layer="27" rot="R90" display="off"/>
@@ -793,7 +791,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PACKAGE" value="SMD 1206" x="30.6" y="56.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="14.344" y="18.22" size="1.2" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R1" library="CRGP1206F120R" package="RESC3115X65N" value="4.7k" x="11.55" y="24.57" rot="R180">
+<element name="R1" library="CRGP1206F120R" package="RESC3115X65N" value="4.7k" x="11.55" y="24.57" smashed="yes" rot="R180">
 <attribute name="ARROW_ELECTRONICS-PURCHASE-URL" value="https://snapeda.com/shop?store=Arrow+Electronics&amp;id=3188205" x="-3.69" y="61.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AVAILABILITY" value="Unavailable" x="-3.69" y="61.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COMMENT" value="1-2176328-4" x="-3.69" y="61.4" size="1.778" layer="27" rot="R180" display="off"/>
@@ -807,7 +805,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PRICE" value="None" x="-3.69" y="61.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="13.79" y="25.77" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="R2" library="CRGP1206F120R" package="RESC3115X65N" value="4.7k" x="11.55" y="27.11" rot="R180">
+<element name="R2" library="CRGP1206F120R" package="RESC3115X65N" value="4.7k" x="11.55" y="27.11" smashed="yes" rot="R180">
 <attribute name="ARROW_ELECTRONICS-PURCHASE-URL" value="https://snapeda.com/shop?store=Arrow+Electronics&amp;id=3188205" x="-8.77" y="63.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="AVAILABILITY" value="Unavailable" x="-8.77" y="63.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COMMENT" value="1-2176328-4" x="-8.77" y="63.94" size="1.778" layer="27" rot="R180" display="off"/>
@@ -821,7 +819,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PRICE" value="None" x="-8.77" y="63.94" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="13.79" y="28.31" size="0.5" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="U1" library="ADS1100" package="DBV6-M" value="ADS1100A0IDBVRDBV6-M" x="11.55" y="15.68" rot="R90">
+<element name="U1" library="ADS1100" package="DBV6-M" value="ADS1100A0IDBVRDBV6-M" x="11.55" y="15.68" smashed="yes" rot="R90">
 <attribute name="DATASHEET_URL" value="http://www.ti.com/lit/gpn/ADS1100" x="43.3" y="49.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" value="Self-Calibrating, 16-Bit Analog-to-Digital Converter" x="43.3" y="49.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="FAMILY_NAME" value="PRECISION ADC (&lt;=10MSPS)" x="43.3" y="49.97" size="1.778" layer="27" rot="R90" display="off"/>
@@ -833,11 +831,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PIN_COUNT" value="6" x="43.3" y="49.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="12.185" y="13.9528" size="1.27" layer="21" ratio="6" rot="SR90"/>
 </element>
-<element name="J2" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev16b" package="691131710004" value="" x="21.329" y="22.284" rot="R90">
+<element name="J2" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev16b" package="691131710004" value="" x="21.329" y="22.284" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.571" y="12.284" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="27.357" y="12.284" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="VIN-" library="screwterm_1" package="SR99S01VBNN00G7_MZC" value="SR99S01VBNN00G7" x="14.1" y="37">
+<element name="VIN-" library="screwterm_1" package="SR99S01VBNN00G7_MZC" value="SR99S01VBNN00G7" x="14.1" y="37" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_Kyle" x="14.1" y="37" size="0.8128" layer="27" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="14.1" y="37" size="0.8128" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SR99S01VBNN00G7" x="14.1" y="37" size="0.8128" layer="27" display="off"/>
@@ -846,7 +844,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="11.1384" y="38.665" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Metz Connect USA" x="14.1" y="37" size="0.8128" layer="27" display="off"/>
 </element>
-<element name="J1" library="screwterm_1" package="SR99S01VBNN00G7_MZC" value="VANDEGRAAFF" x="12" y="7">
+<element name="J1" library="screwterm_1" package="SR99S01VBNN00G7_MZC" value="VANDEGRAAFF" x="12" y="7" smashed="yes">
 <attribute name="BUILT_BY" value="EMA_Kyle" x="12" y="7" size="1.778" layer="27" display="off"/>
 <attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" x="12" y="7" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="SR99S01VBNN00G7" x="12" y="7" size="1.778" layer="27" display="off"/>
